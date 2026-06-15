@@ -296,6 +296,13 @@ Room Migration API handles schema upgrades across app versions.
 
 ---
 
+## Our own featuers added to the app
+
+- **Multi-Currency Support:** When multi-currency mode is enabled, each expense allows currency selection from 180+ ISO 4217 currencies. Exchange rates are fetched daily from a public API (e.g., Open Exchange Rates) and caught locally. All amounts display in both the original currency and the user's base currency (default: ZAR for South African users). Reports and Dashboard always aggregate in the base currency.
+- **Biometric / PIN Authentication** After initial login, users may enable Android BiometricPrompt (fingerprint or face unlock) or set a 4-to-6-digit PIN. The biometric/PIN gate appears every time the app returns to the foreground after more than 60 seconds of inactivity. Implemented using AndroidX Biometric library (BiometricPrompt + BiometricManager). Device PIN/pattern fallback is supported. The setting is toggleable in Profile/Settings.
+
+---
+
 ## A YouTube video presentation showcasing all the app's features of TrueTrack Finance App
 
 https://youtu.be/X6uN1q8-NI0

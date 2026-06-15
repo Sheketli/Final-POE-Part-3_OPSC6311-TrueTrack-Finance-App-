@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TrueTrack Forest Green Design System -->
+    <color name="forest_green">#006D5B</color>
+    <color name="forest_green_light">#E0F2F1</color>
+    <color name="forest_green_dark">#004D40</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="background_light">#F5F7F8</color>
+    <color name="surface_light">#FFFFFF</color>
+
+    <color name="text_primary">#1A1C1E</color>
+    <color name="text_secondary">#74777F</color>
+    <color name="divider">#C4C6CF</color>
+    <color name="input_background">#F1F5F9</color>
+
+    <color name="success">#2E7D32</color>
+    <color name="warning">#FBC02D</color>
+    <color name="danger">#C62828</color>
+
+    <!-- Legacy / Compatibility colors -->
+    <color name="teal_primary">#006D5B</color>
+    <color name="teal_light">#E0F2F1</color>
+    <color name="navy_dark">#1A1C1E</color>
+    <color name="text_secondary_light">#74777F</color>
+    <color name="text_primary_light">#1A1C1E</color>
+    <color name="black">#000000</color>
+</resources>

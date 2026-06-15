@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="input_corner_radius">12dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrueTrack Finance</string>
+    <string name="app_tagline">Smart budgeting. Real results.</string>
+
+    <!-- Auth -->
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_failed">Incorrect credentials. %1$d attempt(s) remaining.</string>
+    <string name="account_locked">Account locked. Try again in %1$d seconds.</string>
+    <string name="user_not_found">Username not found. Please register first.</string>
+    <string name="username_taken">This username is already taken.</string>
+    <string name="email_taken">This email is already registered.</string>
+    <string name="field_required">This field is required.</string>
+    <string name="username_length">Username must be 6–20 characters.</string>
+    <string name="password_weak">Password must be at least 8 characters with 1 uppercase and 1 digit.</string>
+    <string name="email_invalid">Please enter a valid email address.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_savings">Savings</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Dashboard -->
+    <string name="total_budget">Total Budget</string>
+    <string name="total_spent">Total Spent</string>
+    <string name="remaining">Remaining</string>
+    <string name="daily_allowance">Daily Allowance</string>
+    <string name="budget_of">of %1$s</string>
+    <string name="top_spenders">Top Spenders</string>
+    <string name="unallocated_funds">Unallocated Funds: %1$s — complete your budget plan.</string>
+    <string name="category_over_limit">%1$s exceeded its limit!</string>
+    <string name="category_near_limit">%1$s is at 90%% of its limit.</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="streak_placeholder">0-day streak</string>
+    <string name="spent">Spent</string>
+    <string name="goal">Goal</string>
+    <string name="allocate">Allocate</string>
+    <string name="category_progress">Category Progress</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="view_all">View All</string>
+
+    <plurals name="streak_days">
+        <item quantity="one">%1$d-day streak</item>
+        <item quantity="other">%1$d-day streak</item>
+    </plurals>
+
+    <!-- Expenses -->
+    <string name="add_expense">Add Expense</string>
+    <string name="edit_expense">Edit Expense</string>
+    <string name="amount">Amount (ZAR)</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="category">Category</string>
+    <string name="save_expense">Save Expense</string>
+    <string name="delete_expense">Delete Expense</string>
+    <string name="receipt_photo">Receipt Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_gallery">Choose from Gallery</string>
+    <string name="recurring">Recurring</string>
+    <string name="frequency">Frequency</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="undo">Undo</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="no_expenses">No expenses found</string>
+    <string name="amount_invalid">Please enter a valid amount greater than 0.</string>
+    <string name="description_too_long">Description must not exceed 100 characters.</string>
+    <string name="uncategorised">Uncategorised</string>
+    <string name="amount_label">Amount</string>
+    <string name="amount_hint">0.00</string>
+    <string name="date_label">Date</string>
+    <string name="description_label">Description</string>
+    <string name="description_hint">What did you buy?</string>
+    <string name="category_label">Category</string>
+    <string name="choose_from_gallery">Gallery</string>
+    <string name="recurring_expense">Recurring Expense</string>
+    <string name="recurring_expense_subtitle">Automatically log this expense</string>
+    <string name="search_expenses">Search expenses...</string>
+    <string name="filter_date">Date</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_amount">Amount</string>
+    <string name="reset">Reset</string>
+    <string name="add_first_expense">Add your first expense</string>
+
+    <!-- Categories -->
+    <string name="categories">Categories</string>
+    <string name="add_category">Add Category</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_colour">Category Colour</string>
+    <string name="category_emoji">Emoji Icon (optional)</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="delete_category_confirm">Deleting this category will reassign %1$d expense(s) to Uncategorised. Continue?</string>
+    <string name="name_too_long">Name must not exceed 30 characters.</string>
+    <string name="monthly_budget_allocation">Monthly Budget Allocation</string>
+    <string name="drag_to_reorder">Drag handle to reorder categories</string>
+
+    <!-- Budget -->
+    <string name="budget_settings">Budget Settings</string>
+    <string name="monthly_budget">Monthly Budget Goal (ZAR)</string>
+    <string name="category_limit">%1$s Limit (ZAR)</string>
+    <string name="expected_income">Expected Monthly Income (ZAR)</string>
+    <string name="save_budget">Save Budget</string>
+    <string name="income_allocation">Income Allocation</string>
+
+    <!-- Reports -->
+    <string name="reports">Reports</string>
+    <string name="this_month">This Month</string>
+    <string name="last_month">Last Month</string>
+    <string name="last_3_months">Last 3 Months</string>
+    <string name="this_year">This Year</string>
+    <string name="custom">Custom</string>
+    <string name="custom_range">Custom Range</string>
+    <string name="spending_by_category">Spending by Category</string>
+    <string name="daily_spending">Daily Spending</string>
+    <string name="days_7">7 Days</string>
+    <string name="days_14">14 Days</string>
+    <string name="days_30">30 Days</string>
+    <string name="transactions">Transactions</string>
+    <string name="category_breakdown">Category Breakdown</string>
+    <string name="limit">Limit</string>
+    <string name="variance">Variance</string>
+
+    <!-- Savings -->
+    <string name="savings">Savings</string>
+    <string name="savings_goals">Savings Goals</string>
+    <string name="annual_envelopes">Annual Envelopes</string>
+    <string name="add_savings_goal">Add Savings Goal</string>
+    <string name="goal_name">Goal Name</string>
+    <string name="target_amount">Target Amount (ZAR)</string>
+    <string name="deadline">Deadline</string>
+    <string name="add_contribution">Add Contribution</string>
+    <string name="monthly_required">Monthly Required: %1$s</string>
+    <string name="add_annual_envelope">Add Annual Envelope</string>
+    <string name="annual_amount">Annual Amount (ZAR)</string>
+    <string name="due_month">Due Month</string>
+    <string name="monthly_setaside">Monthly Set-Aside: %1$s</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="saved">Saved</string>
+    <string name="per_month">/ month</string>
+
+    <!-- Achievements / Badges -->
+    <string name="achievements">Achievements</string>
+    <string name="badge_first_log">First Log</string>
+    <string name="badge_streak_7">7-Day Streak</string>
+    <string name="badge_streak_30">30-Day Streak</string>
+    <string name="badge_budget_hero">Budget Hero</string>
+    <string name="badge_category_master">Category Master</string>
+    <string name="badge_saver">Saver</string>
+    <string name="badge_consistent_planner">Consistent Planner</string>
+    <string name="badge_earned">Earned: %1$s</string>
+    <string name="badge_locked">Locked — %1$s</string>
+    <string name="badge_unlocked">Badge Unlocked: %1$s!</string>
+    <string name="day_streak">Day Streak</string>
+    <string name="streak_progress">Streak Progress</string>
+    <string name="badges">Badges</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="biometric_auth">Biometric / PIN Authentication</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="export_csv">Export to CSV</string>
+    <string name="logout">Log Out</string>
+    <string name="logout_confirm">Are you sure you want to log out?</string>
+    <string name="profile_avatar">User Avatar</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="budget">Budget</string>
+    <string name="monthly_budget_goal">Monthly Budget Goal</string>
+    <string name="currency">Currency</string>
+    <string name="security">Security</string>
+    <string name="pin_auth">PIN Authentication</string>
+    <string name="budget_alerts">Budget Alerts</string>
+    <string name="budget_alerts_sub">Notify at 90%% and 100%% of limits</string>
+    <string name="recurring_reminders">Recurring Reminders</string>
+    <string name="data">Data</string>
+    <string name="clear_data">Clear All Data</string>
+
+    <!-- Biometric -->
+    <string name="biometric_prompt_title">Verify Identity</string>
+    <string name="biometric_prompt_subtitle">Use fingerprint or face unlock to access TrueTrack Finance</string>
+    <string name="biometric_prompt_negative">Use PIN</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_budget">Budget Alerts</string>
+    <string name="notification_channel_savings">Savings Milestones</string>
+    <string name="notification_channel_recurring">Recurring Transactions</string>
+    <string name="notif_budget_90">%1$s is at 90%% of its monthly limit.</string>
+    <string name="notif_budget_100">%1$s has exceeded its monthly limit!</string>
+    <string name="notif_savings_milestone">%1$s is %2$d%% complete!</string>
+    <string name="notif_recurring_due">Recurring expense due: %1$s (R%2$.2f). Tap to review.</string>
+
+    <!-- Content Descriptions (accessibility) -->
+    <string name="cd_logo">TrueTrack Finance logo</string>
+    <string name="cd_add_expense">Add new expense</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_receipt_thumbnail">View receipt photo</string>
+    <string name="cd_category_color">Category colour indicator</string>
+    <string name="cd_progress_ring">Budget progress ring</string>
+    <string name="cd_badge">Achievement badge</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_savings_tabs">Savings category selection</string>
+    <string name="delete_goal">Delete Goal</string>
+
+    <!-- Dashboard Personalization -->
+    <string name="greeting_with_emoji">👋 %1$s</string>
+    <string name="amount_left_format">%1$s left</string>
+    <string name="unallocated_msg_format">%1$s income not yet assigned to categories.</string>
+    <string name="handle_format">\@%1$s</string>
+    <string name="char_count_format">%1$d/%2$d</string>
+    <string name="remaining_to_allocate_format">Remaining to allocate: %1$s</string>
+    <string name="locked_countdown">Locked (%1$d s)</string>
+    <string name="variance_format">%1$s%2$s</string>
+    <string name="no_recurring_found">No recurring transactions found</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.truetrackfinance.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_home">
+        <action
+            android:id="@+id/action_dashboard_to_expenses"
+            app:destination="@id/expensesFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_categories"
+            app:destination="@id/categoriesFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_addExpense"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_incomeAllocation"
+            app:destination="@id/incomeAllocationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.example.truetrackfinance.ui.expenses.ExpensesFragment"
+        android:label="@string/nav_expenses">
+        <action
+            android:id="@+id/action_expenses_to_addExpense"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_expenses_to_imageViewer"
+            app:destination="@id/imageViewerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.example.truetrackfinance.ui.reports.ReportsFragment"
+        android:label="@string/nav_reports" />
+
+    <fragment
+        android:id="@+id/savingsFragment"
+        android:name="com.example.truetrackfinance.ui.savings.SavingsFragment"
+        android:label="@string/nav_savings" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.truetrackfinance.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile">
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profile_to_achievements"
+            app:destination="@id/achievementsFragment" />
+        <action
+            android:id="@+id/action_profile_to_categories"
+            app:destination="@id/categoriesFragment" />
+        <action
+            android:id="@+id/action_profile_to_recurring"
+            app:destination="@id/recurringTransactionsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recurringTransactionsFragment"
+        android:name="com.example.truetrackfinance.ui.expenses.RecurringTransactionsFragment"
+        android:label="Recurring Transactions" />
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.truetrackfinance.ui.expenses.AddExpenseFragment"
+        android:label="@string/add_expense">
+        <argument
+            android:name="expenseId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <action
+            android:id="@+id/action_addExpense_to_imageViewer"
+            app:destination="@id/imageViewerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.truetrackfinance.ui.categories.CategoriesFragment"
+        android:label="@string/categories">
+        <action
+            android:id="@+id/action_categories_to_incomeAllocation"
+            app:destination="@id/incomeAllocationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/incomeAllocationFragment"
+        android:name="com.example.truetrackfinance.ui.categories.IncomeAllocationFragment"
+        android:label="Allocate Income" />
+
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.example.truetrackfinance.ui.achievements.AchievementsFragment"
+        android:label="@string/achievements" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.truetrackfinance.ui.settings.SettingsFragment"
+        android:label="@string/settings" />
+
+    <fragment
+        android:id="@+id/imageViewerFragment"
+        android:name="com.example.truetrackfinance.ui.expenses.ImageViewerFragment"
+        android:label="Receipt">
+        <argument
+            android:name="imagePath"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

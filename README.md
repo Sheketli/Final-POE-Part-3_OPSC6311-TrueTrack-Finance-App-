@@ -298,7 +298,7 @@ Room Migration API handles schema upgrades across app versions.
 
 ## A YouTube video presentation showcasing all the app's features of TrueTrack Finance App
 
-https://youtu.be/kpSaXKxypWA
+https://youtu.be/X6uN1q8-NI0
 
 ---
 
